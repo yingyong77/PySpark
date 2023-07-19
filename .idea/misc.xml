@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectRootManager" version="2" project-jdk-name="Remote Python 3.8.16 (sftp://root@192.168.98.130:22/export/server/anaconda3/envs/pyspark/bin/python3)" project-jdk-type="Python SDK" />
+  <component name="SaveActionSettings">
+    <option name="actions">
+      <set>
+        <option value="activate" />
+        <option value="organizeImports" />
+        <option value="reformat" />
+      </set>
+    </option>
+    <option name="configurationPath" value="" />
+  </component>
+</project>
