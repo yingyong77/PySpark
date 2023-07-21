@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 """
+collect算子
+将各个分区中的内容中的数据，统一集中到driver中，形成一个list对象
 @author: Darren
 @time: 2023/7/11 20:34
 @function:
