@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-数据写出
+数据写出 text csv  json parquet
 @author: Darren
 @time: 2023/7/18 11:05
 @function:

@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-jdbc
+jdbc read write
 @author: Darren
 @time: 2023/7/18 11:05
 @function:

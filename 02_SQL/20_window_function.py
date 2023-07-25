@@ -50,14 +50,15 @@ if __name__ == '__main__':
     df = rdd.toDF(schema)
 
     df.createTempView("stu")
+    # 聚合类型
     spark.sql("""
     select *,AVG(score) over() as avg_score from stu
     """).show()
 
-   #  排序相关的窗口函数 RANK OVER 、DENSE_RANK over、ROW_NUMBER over
-   #  RANK OVER
-   #  DENSE_RANK
-   #  ROW_NUMBER
+    #  排序相关的窗口函数 RANK OVER 、DENSE_RANK over、ROW_NUMBER over
+    #  RANK OVER
+    #  DENSE_RANK  相同排名的属于同一等级 比如 排名1的有多个
+    #  ROW_NUMBER  分配一个唯一的整数值
     spark.sql("""
     select *, ROW_NUMBER() over(order by score desc) as row_number_rank,
     DENSE_RANK() over(partition by class order by score desc) as dense_rank,
